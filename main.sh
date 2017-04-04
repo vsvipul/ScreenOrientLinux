@@ -16,16 +16,20 @@ Tool to set up screen orientation settings on Linux.
 "
 
 read -p " Enter your choice number : " choice
-if [ "$choice"="1" ]; then
+if [ "$choice" = "1" ]; then
+	echo "Rotating to normal"
 	xrandr -o normal
 fi
-if [ "$choice"="2" ]; then
+if [ "$choice" = "2" ]; then
+	echo "Rotating to inverted"
 	xrandr -o inverted
 fi
-if [ "$choice"="3" ]; then
+if [ "$choice" = "3" ]; then
+	echo "Rotating to left" 
 	xrandr -o left
 fi
-if [ "$choice"="4" ]; then
+if [ "$choice" = "4" ]; then
+	echo "Rotating to right"
 	xrandr -o right
 fi
 echo
