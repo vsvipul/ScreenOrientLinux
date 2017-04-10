@@ -5,7 +5,7 @@ clear
 use_same=""
 use_auth=""
 echo -e "
-\e[1m\e[33mScreenRotateSet
+\e[1m\e[33mScreenRotateLinux
 =====================\e[0m
 Tool to set up screen orientation settings on Linux.
  \e[4mThe following options are available : \e[0m
